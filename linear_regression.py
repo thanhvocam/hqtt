@@ -43,3 +43,5 @@ def tinh_hqtt(x,y):
   beta = sum(multi)/sum(binhphuong)
   alpha = tbc_y - beta*tbc_x
   return beta, alpha
+
+print(tinh_hqtt([1,2,3],[4,5,6]))
