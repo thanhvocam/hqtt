@@ -44,4 +44,4 @@ def tinh_hqtt(x,y):
   alpha = tbc_y - beta*tbc_x
   return beta, alpha
 
-print(tinh_hqtt([1,2,3],[4,5,6]))
+print(tinh_hqtt([2, 3, 4, 5], [4,7,10,13]))
